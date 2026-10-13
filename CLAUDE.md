@@ -29,17 +29,19 @@ Inside `backend/`, keep a simple layered structure: routes, controllers, service
 
 ## Commands
 
-These do not exist yet. Add each command here as soon as it is set up:
+Run these from inside `backend/`:
 
-- Install: not set up yet
-- Run API: not set up yet
+- Install: `npm install`
+- Run API: `npm run dev` (restarts on file changes) or `npm start`
 - Run worker: not set up yet
-- Run tests: not set up yet
+- Run tests: `npm test`
 - Lint: not set up yet
+
+Copy `backend/.env.example` to `backend/.env` before running. The defaults also work without it.
 
 ## Current status
 
-Design is finished. Next up is milestone 1 in `docs/DESIGN.md` (project skeleton). Update this section after each milestone.
+Design is finished. Milestone 1 (project skeleton) is done: Express app, validated config, request logging, standard error format, and `GET /health`, with tests. Next up is milestone 2 in `docs/DESIGN.md` (auth: register, login, API keys). Update this section after each milestone.
 
 ## Reminders
 
