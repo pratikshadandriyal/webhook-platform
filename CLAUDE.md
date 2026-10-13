@@ -4,6 +4,7 @@ A backend service that delivers webhooks reliably: signed payloads, automatic re
 
 @RULES.md
 @docs/DESIGN.md
+@docs/PROGRESS.md
 
 ## Stack
 
